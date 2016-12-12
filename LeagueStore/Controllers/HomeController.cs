@@ -22,5 +22,13 @@ namespace LeagueStore.Controllers
 
             return View();
         }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Title = "Contact";
+            ViewBag.Bericht = "REEEE";
+
+            return View();
+        }
     }
 }
